@@ -1,0 +1,45 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# Large intermediate outputs (regenerate via scripts/)
+outputs/traces/
+outputs/truncation/
+outputs/ablation/
+outputs/deliverable/
+outputs/deliverable.zip
+outputs/results_intermediate.json
+
+# Logs and auxiliary reports
+outputs/*.log
+outputs/*.aux
+outputs/*.out
+outputs/*.tex
+outputs/pilot_report.*
+outputs/route_A_report.*
+outputs/rho_results_report.*
+outputs/case_studies.txt
+
+# Paper build artefacts
+*.zip
+!outputs/figures/*.pdf
+arxiv_build/
+paper/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
